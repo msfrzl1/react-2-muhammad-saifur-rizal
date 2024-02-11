@@ -1,4 +1,8 @@
 const Button = (props) => {
-  return <button onClick={props.handleSideBar}>|||</button>;
+  return (
+    <div className="button">
+      <button onClick={props.handleSideBar}>|||</button>
+    </div>
+  );
 };
 export default Button;

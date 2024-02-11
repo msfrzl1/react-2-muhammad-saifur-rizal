@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <>
-      <div>
+      <div className="container">
         <Button handleSideBar={handleSideBar}></Button>
         {sideBar === true ? <SideBar /> : null}
         <PersonalInfo age={age} />
